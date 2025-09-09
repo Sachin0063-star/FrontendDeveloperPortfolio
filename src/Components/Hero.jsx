@@ -6,9 +6,9 @@ import github from '/github.png';
 import linkedin from '/linkedin.png';
 import facebook from '/facebook.png';
 import instagram from '/instagram.png';
-import rocky from '/rocky.png';
+import cv from '/resume.png';
 import Abt from '/Abt.png';
-import me from '/me.jpg';
+import myfoto from '/my foto.jpg';
 
 export default function Hero() {
   return (
@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
 
         {/* Download CV Button */}
-        <a href={rocky} download>
+        <a href={cv} download>
           <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg">
             Download CV
           </button>
@@ -65,7 +65,7 @@ export default function Hero() {
         {/* Profile Photo Section */}
         <div className="mt-8 flex justify-center md:justify-start">
           <img
-            src={me}
+            src={myfoto}
             alt="Profile"
             className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-[#c744c4] shadow-lg hover:scale-110 transition-transform duration-300"
           />

@@ -24,7 +24,12 @@ function About() {
                 </h1>
                 </header>
                 <p className='text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed'>
-      "Hi, I'm Sachin Kumar Sharma — a passionate frontend developer who transforms ideas into vibrant, accessible web experiences. With a strong grip on React.js, Tailwind CSS, and modern JavaScript, I craft interfaces that are not just functional but delightful. I believe great design is inclusive, and great code tells a story. Whether it's debugging a tricky component or designing a joyful UI, I bring creativity, empathy, and precision to every project I build."
+                  "Hi, I'm Sachin Kumar Sharma from new Delhi — a passionate frontend developer who transforms 
+                  ideas into vibrant, accessible web experiences. With a strong grip on React.js, Tailwind CSS, 
+                  and modern JavaScript, I craft interfaces that are not just functional but delightful.
+                   I believe great design is inclusive, and great code tells a story. Whether it's debugging
+                    a tricky component or designing a joyful UI, I bring creativity, empathy, and precision to
+                     every project I build."
                 </p>
                 <footer>
                     <button className='inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none

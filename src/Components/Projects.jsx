@@ -1,12 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import pro1 from '/pro1.jpg';
-import pro2 from '/pro2.jpg';
-import pro3 from '/pro3.jpg';
-import pro4 from '/pro4.jpg';
-import pro5 from '/pro5.jpg';
-import pro6 from '/pro6.jpg';
-import pro7 from '/pro7.jpg';
+import pro1 from '/Calculator.png';
+import pro2 from '/agency.png';
+import pro3 from '/ToDo.png';
+
 // import pro8 from '/pro8.jpg';
 
 const ProjectCard = ({ image, title, description, link }) => (
@@ -49,47 +46,24 @@ const ProjectCard = ({ image, title, description, link }) => (
 const listProjects = [
   {
     image: pro1,
-    title: ' Website 1',
+    title: ' Calculator',
     description: 'A modern portfolio built with React and Tailwind CSS.',
-    link: '#',
+    link: 'https://calculator-kappa-seven-68.vercel.app/',
   },
+ 
   {
     image: pro2,
-    title: ' Website 2',
-    description: 'A sleek design showcasing frontend skills.',
-    link: '#',
+    title: ' Agency.Ai',
+    description: 'Responsive layout with animations and interactivity.',
+    link: 'https://agency-ai-gamma.vercel.app/'
   },
   {
     image: pro3,
-    title: ' Website 3',
-    description: 'Responsive layout with animations and interactivity.',
-    link: '#',
-  },
-  {
-    image: pro4,
-    title: ' Website 4',
+    title: ' ToDo App',
     description: 'Creative use of gradients and hover effects.',
-    link: '#',
+    link: 'https://todo-list-app-3d.vercel.app/',
   },
-  {
-    image: pro5,
-    title: ' Website 5',
-    description: 'Clean UI with reusable components.',
-    link: '#',
-  },
-  {
-    image: pro6,
-    title: ' Website 6',
-    description: 'Built for performance and accessibility.',
-    link: '#',
-  },
-    {
-    image: pro7,
-    title: ' Website 7',
-    description: 'Clean UI with reusable components.',
-    link: '#',
-  },
-  
+
 ];
 
 export default function Projects() {

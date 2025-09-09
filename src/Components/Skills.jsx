@@ -10,7 +10,7 @@ import imghero from '/imghero.png'
 const skillsData=[
     
         {id:1, image:html, title:'html 5',description:"Proficient in writing semantic, accessible HTML5 for responsive and well-structured web interfaces. "},
-           { id:2, image:icon_react, title:'icon_react',description:"Skilled in crafting responsive, visually engaging layouts using modern CSS3 and utility-first frameworks like Tailwind CSS."},
+           { id:2, image:icon_react, title:'react',description:"Skilled in crafting responsive, visually engaging layouts using modern CSS3 and utility-first frameworks like Tailwind CSS."},
             {    id:3, image:js, title:'javascript',description:"Proficient in modern JavaScript (ES6+), with expertise in DOM manipulation, array methods, and clean, modular code."},
                   {  id:4, image:css, title:'css',description:"Experienced in building dynamic UIs with React.js, leveraging state management, props, and component-based architecture."},
     
