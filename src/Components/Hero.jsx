@@ -6,7 +6,7 @@ import github from '/github.png';
 import linkedin from '/linkedin.png';
 import facebook from '/facebook.png';
 import instagram from '/instagram.png';
-import cv from '/resume.png';
+import resume from '/resume.png';
 import Abt from '/Abt.png';
 import myfoto from '/my foto.jpg';
 
@@ -56,9 +56,9 @@ export default function Hero() {
         </div>
 
         {/* Download CV Button */}
-        <a href={cv} download>
+        <a href={resume} download>
           <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg">
-            Download CV
+            Download Resume
           </button>
         </a>
 

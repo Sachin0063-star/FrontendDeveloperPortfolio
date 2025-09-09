@@ -4,8 +4,6 @@ import pro1 from '/Calculator.png';
 import pro2 from '/agency.png';
 import pro3 from '/ToDo.png';
 
-// import pro8 from '/pro8.jpg';
-
 const ProjectCard = ({ image, title, description, link }) => (
   <motion.article
     className='relative max-w-sm bg-gray-800 rounded overflow-hidden shadow-lg group hover:shadow-purple-500/40 transition-shadow duration-300'
