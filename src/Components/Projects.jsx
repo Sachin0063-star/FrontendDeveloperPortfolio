@@ -1,9 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import pro1 from '/Calculator.png';
-import pro2 from '/agency.png';
-import pro3 from '/ToDo.png';
-import pro4 from '/Gen-Z.png';
 
 const ProjectCard = ({ image, title, description, link }) => (
   <motion.article
@@ -42,25 +38,25 @@ const ProjectCard = ({ image, title, description, link }) => (
 
 const listProjects = [
   {
-    image: pro1,
+    image: '/Calculator.png',
     title: 'Calculator',
     description: 'A modern calculator built with React and Tailwind CSS.',
     link: 'https://calculator-wz1y.vercel.app/',
   },
   {
-    image: pro2,
+    image: '/agency.png',
     title: 'Agency.Ai',
     description: 'Responsive layout with animations and interactivity.',
     link: 'https://agency-ai-gamma.vercel.app/',
   },
   {
-    image: pro3,
+    image: '/ToDo.png',
     title: 'ToDo App',
     description: 'Creative use of gradients and hover effects.',
     link: 'https://todo-list-app-3d.vercel.app/',
   },
   {
-    image: pro4,
+    image: '/Gen-Z.png',
     title: 'Gen-Z Clinic',
     description: 'A sleek React project with animated booking and modern UI.',
     link: 'https://gen-z-clinic-d6kfc54jk-sachin-sharmas-projects-c54f6dcc.vercel.app/',
