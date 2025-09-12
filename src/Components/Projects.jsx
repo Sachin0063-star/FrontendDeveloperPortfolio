@@ -59,7 +59,7 @@ const listProjects = [
     image: '/Gen-Z.png',
     title: 'Gen-Z Clinic',
     description: 'A sleek React project with animated booking and modern UI.',
-    link: 'https://gen-z-clinic-d6kfc54jk-sachin-sharmas-projects-c54f6dcc.vercel.app/',
+    link: 'https://gen-z-clinic-r3os.vercel.app/',
   },
 ];
 
